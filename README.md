@@ -11,7 +11,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/SONALI-NEGI/Order-summary-component.git)
-- Live Site URL: [Live page](https://your-live-site-url.com)
+- Live Site URL: [Live page](https://sonali-negi.github.io/Order-summary-component/)
 
 
 ### Built with
