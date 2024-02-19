@@ -1,0 +1,131 @@
+:root {
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--Pale-blue);
+  box-sizing: border-box;
+}
+main {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 40.635rem; */
+  height: 90vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  height: 33rem;
+  background-color: white;
+  border-radius: 1rem;
+  text-align: center;
+  width: 18.75rem;
+}
+
+.card__img {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  width: 18.75rem;
+}
+
+.card__text {
+  padding: 0 1.5rem 1rem 1.5rem;
+}
+.card__title {
+  color: var(--Dark-blue);
+}
+.card__description {
+  color: var(--Desaturated-blue);
+  font-weight: 500;
+  font-size: 1rem;
+}
+.card-plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--Very-pale-blue);
+  border-radius: 1rem;
+  padding: 0.7rem;
+}
+.card-plan__icon {
+  height: 3rem;
+}
+.card-plan__details {
+  text-align: start;
+  margin-left: 0.5rem;
+}
+.details--1 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--Dark-blue);
+}
+.details--2 {
+  font-size: 0.8rem;
+  color: var(--Desaturated-blue);
+}
+.card-plan__btn {
+  background-color: transparent;
+  border: none;
+  color: var(--Bright-blue);
+  text-decoration: underline;
+  font-weight: 900;
+}
+.card-plan__btn:hover {
+  text-decoration: none;
+}
+.card__btn {
+  margin: 0 1rem 0 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  font-size: 1rem;
+  border-radius: 0.7rem;
+  background-color: transparent;
+  font-weight: 700;
+  border: none;
+  color: var(--Desaturated-blue);
+}
+.card__btn--blue {
+  background-color: var(--Bright-blue);
+  color: white;
+  box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, 0.25);
+}
+.card__btn--cancel {
+  margin-top: 0.5rem;
+}
+.card__btn--cancel:hover {
+  color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 700px) {
+  .card {
+    width: 19.75rem;
+  }
+  .card__img {
+    width: 19.75rem;
+  }
+}

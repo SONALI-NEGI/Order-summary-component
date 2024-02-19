@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Order summary card</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="hero-img"
+          aria-hidden="true"
+          class="card__img"
+        />
+        <div class="card__text">
+          <h1 class="card__title">Order Summary</h1>
+          <p class="card__description">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="card-plan">
+            <img
+              src="./images/icon-music.svg"
+              alt="card plan icon"
+              class="card-plan__icon"
+              aria-hidden="true"
+            />
+            <p class="card-plan__details">
+              <span class="details--1">Annual Plan</span>
+              <span class="details--2">$59.99/year</span>
+            </p>
+            <button type="button" class="card-plan__btn">Change</button>
+          </div>
+        </div>
+        <button type="button" class="card__btn card__btn--blue">Proceed to Payment</button>
+        <button type="button" class="card__btn card__btn--cancel">Cancel Order</button>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/SONALI-NEGI" target="_blank" rel="noopener"
+        >Sonali Negi</a
+      >.
+    </footer>
+  </body>
+</html>
